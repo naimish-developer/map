@@ -2,7 +2,7 @@ import React, { useState } from "react";
 const list = [
   {
     id: "Bretan",
-    data: "This is A",
+    data: "Toranto car loram error: failed to push some refs to 'https://github.com/naimish-developer/map.git' ",
     link: "https://google.com",
     transform: "matrix(1 0 0 1 168.6156 390.559)",
   },
@@ -29,7 +29,7 @@ setfirst(selected)
               onClick={() => selectcityhendler(data)}
               className="list"
             >
-              {data.data}
+              {data.id}
             </div>
           );
         })}
@@ -470,7 +470,10 @@ setfirst(selected)
           >
             <div className="data">
               <div>{first.data}</div>
+			  <button className="btn">
+
               <a href={first.link}>LINK</a>
+			  </button>
             </div>
           </foreignObject>
         </svg>
